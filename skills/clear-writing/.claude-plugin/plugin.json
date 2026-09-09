@@ -1,0 +1,27 @@
+{
+  "name": "clear-writing",
+  "displayName": "Clear Writing",
+  "version": "1.0.0",
+  "description": "Write and edit clear technical documentation and human prose.",
+  "author": {
+    "name": "Pink Pixel",
+    "email": "admin@pinkpixel.dev",
+    "url": "https://pinkpixel.dev"
+  },
+  "homepage": "https://pinkpixel.dev",
+  "repository": "https://github.com/pinkpixel-dev/skills",
+  "license": "Apache 2.0",
+  "keywords": [
+    "clear-writing",
+    "simplified-technical-english",
+    "ste-100",
+    "asd-ste100",
+    "technical-writing",
+    "documentation",
+    "editing",
+    "de-slop",
+    "ai-writing",
+    "claude-code"
+  ],
+  "skills": "./"
+}
