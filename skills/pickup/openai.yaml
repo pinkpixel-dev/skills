@@ -1,0 +1,5 @@
+interface:
+  display_name: "Pickup"
+  short_description: "Find and read the latest relevant handoff document."
+policy:
+  allow_implicit_invocation: true

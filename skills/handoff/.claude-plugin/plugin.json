@@ -1,0 +1,23 @@
+{
+  "name": "handoff",
+  "displayName": "Handoff",
+  "version": "1.0.0",
+  "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+  "author": {
+    "name": "Pink Pixel",
+    "email": "admin@pinkpixel.dev",
+    "url": "https://pinkpixel.dev"
+  },
+  "homepage": "https://pinkpixel.dev",
+  "repository": "https://github.com/pinkpixel-dev/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "handoff",
+    "context",
+    "session",
+    "agents",
+    "claude-code",
+    "agent-skills"
+  ],
+  "skills": "./"
+}

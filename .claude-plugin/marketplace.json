@@ -1,0 +1,71 @@
+{
+  "name": "pinkpixel-skills",
+  "description": "Agent skills and Claude Code plugins by Pink Pixel.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Pink Pixel",
+    "email": "admin@pinkpixel.dev",
+    "url": "https://pinkpixel.dev"
+  },
+  "plugins": [
+    {
+      "name": "handoff",
+      "source": "./skills/handoff",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pink Pixel",
+        "email": "admin@pinkpixel.dev",
+        "url": "https://pinkpixel.dev"
+      },
+      "category": "productivity",
+      "keywords": [
+        "handoff",
+        "context",
+        "session-management",
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "pickup",
+      "source": "./skills/pickup",
+      "description": "Find and read the latest relevant handoff document so the current session can continue previous work.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pink Pixel",
+        "email": "admin@pinkpixel.dev",
+        "url": "https://pinkpixel.dev"
+      },
+      "category": "productivity",
+      "keywords": [
+        "pickup",
+        "context",
+        "resume",
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "clear-writing",
+      "source": {
+        "source": "github",
+        "repo": "pinkpixel-dev/clear-writing-skill"
+      },
+      "description": "Write and edit clear technical documentation and human prose free of machine-generated fluff.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pink Pixel",
+        "email": "admin@pinkpixel.dev",
+        "url": "https://pinkpixel.dev"
+      },
+      "category": "writing",
+      "keywords": [
+        "technical-writing",
+        "asd-ste100",
+        "ste-100",
+        "de-slop",
+        "clear-writing",
+        "documentation"
+      ]
+    }
+  ]
+}

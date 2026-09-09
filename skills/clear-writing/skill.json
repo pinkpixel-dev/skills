@@ -1,0 +1,24 @@
+{
+  "name": "clear-writing",
+  "displayName": "Clear Writing",
+  "description": "Write and edit clear technical documentation and human prose. Combines ASD-STE100 Simplified Technical English for instructional steps with an audit for machine-generated writing patterns.",
+  "version": "1.0.0",
+  "author": "Pink Pixel",
+  "license": "Apache 2.0",
+  "homepage": "https://pinkpixel.dev",
+  "repository": "https://github.com/pinkpixel-dev/clear-writing-skill",
+  "keywords": [
+    "technical-writing",
+    "simplified-technical-english",
+    "ste-100",
+    "asd-ste100",
+    "documentation",
+    "de-slop",
+    "ai-writing",
+    "clear-writing",
+    "editing",
+    "claude-skill",
+    "runbooks",
+    "readmes"
+  ]
+}

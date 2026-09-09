@@ -1,0 +1,19 @@
+{
+  "name": "pickup",
+  "displayName": "Pickup",
+  "description": "Find and read the latest relevant handoff document so the current session can continue previous work.",
+  "version": "1.0.0",
+  "author": "Pink Pixel",
+  "license": "Apache 2.0",
+  "homepage": "https://pinkpixel.dev",
+  "repository": "https://github.com/pinkpixel-dev/skills",
+  "keywords": [
+    "pickup",
+    "context",
+    "resume",
+    "session-management",
+    "agent-skills",
+    "workflow",
+    "claude-skill"
+  ]
+}
