@@ -46,10 +46,7 @@
     },
     {
       "name": "clear-writing",
-      "source": {
-        "source": "github",
-        "repo": "pinkpixel-dev/clear-writing-skill"
-      },
+      "source": "./skills/clear-writing",
       "description": "Write and edit clear technical documentation and human prose free of machine-generated fluff.",
       "version": "1.0.0",
       "author": {

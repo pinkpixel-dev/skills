@@ -66,13 +66,16 @@ Once installed, invoke any skill in your session. Plugin skills are namespaced w
 
 ```shell
 # Run handoff at the end of a session
-/handoff "finish user authentication"
+/handoff
+/handoff:handoff
 
 # Run pickup in your next session to resume
 /pickup
+/pickup:pickup
 
 # Run clear-writing to audit or rewrite documentation
 /clear-writing
+/clear-writing:clear-writing
 ```
 
 ### 4. Update Plugins and Marketplace
