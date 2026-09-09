@@ -65,3 +65,7 @@ Handoff files follow strict storage and privacy boundaries:
 - **Honest Records:** The skill records what was actually checked and verified. If a test was not run, or a file path is unknown, the document says so directly.
 
 Pair `handoff` with the [`pickup`](../pickup/README.md) skill to load your saved state in your next session.
+
+## Acknowledgments
+
+This skill was adapted from Matt Pocock's original [handoff](https://github.com/mattpocock/skills) skill.
