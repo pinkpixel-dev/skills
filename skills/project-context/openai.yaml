@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Context"
+  short_description: "Read and maintain durable project context files (OVERVIEW.md, MEMORY.md, ERRORS.md)."
+policy:
+  allow_implicit_invocation: true

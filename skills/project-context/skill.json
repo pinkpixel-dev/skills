@@ -1,0 +1,20 @@
+{
+  "name": "project-context",
+  "displayName": "Project Context",
+  "description": "Read and maintain durable project context files: OVERVIEW.md for current architecture, MEMORY.md for decisions and rejected options, and ERRORS.md for hard lessons.",
+  "version": "1.0.0",
+  "author": "Pink Pixel",
+  "license": "Apache 2.0",
+  "homepage": "https://pinkpixel.dev",
+  "repository": "https://github.com/pinkpixel-dev/skills",
+  "keywords": [
+    "project-context",
+    "memory",
+    "overview",
+    "errors",
+    "documentation",
+    "decisions",
+    "claude-skill",
+    "agent-skills"
+  ]
+}

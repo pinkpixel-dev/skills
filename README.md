@@ -11,6 +11,7 @@ This repository functions both as a standalone skill library for agent runtimes 
 | **[Clear Writing](skills/clear-writing/README.md)** | Write and edit technical documentation and human prose. Combines ASD-STE100 Simplified Technical English for instructional steps with an anti-AI pattern audit for voiced writing. | [Read guide](skills/clear-writing/README.md) |
 | **[Handoff](skills/handoff/README.md)** | Compact the active conversation into a structured handoff document saved to your OS temporary directory so a fresh agent can continue where you stopped. | [Read guide](skills/handoff/README.md) |
 | **[Pickup](skills/pickup/README.md)** | Find and load the latest relevant handoff document created by `handoff`, allowing a new session to resume immediately without re-explaining context. | [Read guide](skills/pickup/README.md) |
+| **[Project Context](skills/project-context/README.md)** | Read and maintain durable context files (`OVERVIEW.md`, `MEMORY.md`, `ERRORS.md`) so agents remember architecture, decisions, and hard-won fixes across sessions. | [Read guide](skills/project-context/README.md) |
 
 ## Using with Claude Code
 
@@ -47,11 +48,13 @@ Install individual plugins by specifying the plugin name and marketplace identif
 /plugin install handoff@pinkpixel-skills
 /plugin install pickup@pinkpixel-skills
 /plugin install clear-writing@pinkpixel-skills
+/plugin install project-context@pinkpixel-skills
 
 # Or from your terminal
 claude plugin install handoff@pinkpixel-skills
 claude plugin install pickup@pinkpixel-skills
 claude plugin install clear-writing@pinkpixel-skills
+claude plugin install project-context@pinkpixel-skills
 ```
 
 If Claude Code prompts you to reload plugins to activate them, run:
@@ -76,6 +79,10 @@ Once installed, invoke any skill in your session. Plugin skills are namespaced w
 # Run clear-writing to audit or rewrite documentation
 /clear-writing
 /clear-writing:clear-writing
+
+# Run project-context to inspect or update durable docs
+/project-context
+/project-context:project-context
 ```
 
 ### 4. Update Plugins and Marketplace
@@ -117,7 +124,8 @@ skills/
   clear-writing/         Clear Writing skill documentation and configuration
   handoff/               Handoff skill instructions and plugin manifest
   pickup/                Pickup skill instructions and plugin manifest
-examples/                Sample outputs and before-and-after comparisons
+  project-context/       Project Context skill instructions, templates, and references
+examples/                Sample outputs, reference context docs, and comparisons
 ```
 
 ## License

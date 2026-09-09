@@ -63,6 +63,27 @@
         "clear-writing",
         "documentation"
       ]
+    },
+    {
+      "name": "project-context",
+      "source": "./skills/project-context",
+      "description": "Read and maintain durable project context files (OVERVIEW.md, MEMORY.md, ERRORS.md) to preserve decisions and lessons.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pink Pixel",
+        "email": "admin@pinkpixel.dev",
+        "url": "https://pinkpixel.dev"
+      },
+      "category": "productivity",
+      "keywords": [
+        "project-context",
+        "memory",
+        "overview",
+        "errors",
+        "decisions",
+        "agent-skills",
+        "documentation"
+      ]
     }
   ]
 }
